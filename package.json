@@ -1,0 +1,16 @@
+{
+  "name": "proj-node-server",
+  "description": "",
+  "scripts": {
+    "lala": "echo Lala!",
+    "show-files": "dir",
+    "start": "nodemon --ignore \"./data\" server.js"
+  },
+  "author": "Me",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "follow-redirects": "^1.15.3"
+  }
+}
